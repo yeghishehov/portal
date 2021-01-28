@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portal/static/css/main.73361910.chunk.css",
+    "main.js": "/portal/static/js/main.71fb78be.chunk.js",
+    "main.js.map": "/portal/static/js/main.71fb78be.chunk.js.map",
+    "runtime-main.js": "/portal/static/js/runtime-main.b845d62f.js",
+    "runtime-main.js.map": "/portal/static/js/runtime-main.b845d62f.js.map",
+    "static/js/2.d7fb438a.chunk.js": "/portal/static/js/2.d7fb438a.chunk.js",
+    "static/js/2.d7fb438a.chunk.js.map": "/portal/static/js/2.d7fb438a.chunk.js.map",
+    "static/js/3.52fba474.chunk.js": "/portal/static/js/3.52fba474.chunk.js",
+    "static/js/3.52fba474.chunk.js.map": "/portal/static/js/3.52fba474.chunk.js.map",
+    "index.html": "/portal/index.html",
+    "static/css/main.73361910.chunk.css.map": "/portal/static/css/main.73361910.chunk.css.map",
+    "static/js/2.d7fb438a.chunk.js.LICENSE.txt": "/portal/static/js/2.d7fb438a.chunk.js.LICENSE.txt",
+    "static/media/arrow.dd0b7813.svg": "/portal/static/media/arrow.dd0b7813.svg",
+    "static/media/facebook.cf880b1e.svg": "/portal/static/media/facebook.cf880b1e.svg",
+    "static/media/instagram.55ad13f2.svg": "/portal/static/media/instagram.55ad13f2.svg",
+    "static/media/messanger.bd5ebe5c.svg": "/portal/static/media/messanger.bd5ebe5c.svg",
+    "static/media/style.module.scss": "/portal/static/media/noice2.6b551b01.png",
+    "static/media/portal.8b5a4c12.svg": "/portal/static/media/portal.8b5a4c12.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b845d62f.js",
+    "static/js/2.d7fb438a.chunk.js",
+    "static/css/main.73361910.chunk.css",
+    "static/js/main.71fb78be.chunk.js"
+  ]
+}
