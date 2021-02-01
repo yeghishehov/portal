@@ -1,7 +1,3 @@
-export default function About() {
-  return (
-    <div style={{ color: 'white' }}>
-      About us
-    </div>
-  );
-}
+import About from './about';
+
+export default About;

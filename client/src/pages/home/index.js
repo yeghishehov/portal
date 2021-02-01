@@ -1,7 +1,3 @@
-export default function Home() {
-  return (
-    <div style={{ color: 'white' }}>
-      Home
-    </div>
-  );
-}
+import Home from './home';
+
+export default Home;

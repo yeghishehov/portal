@@ -1,7 +1,3 @@
-export default function Works() {
-  return (
-    <div style={{ color: 'white' }}>
-      Works
-    </div>
-  );
-}
+import Works from './works';
+
+export default Works;

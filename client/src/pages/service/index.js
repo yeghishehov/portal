@@ -1,7 +1,3 @@
-export default function Service() {
-  return (
-    <div style={{ color: 'white' }}>
-      Service
-    </div>
-  );
-}
+import Service from './service';
+
+export default Service;
