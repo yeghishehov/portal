@@ -32,11 +32,11 @@
 
 .body {
   display: flex;
-  justify-content: space-between;
   min-height: calc(100vh - 66px);
 }
 
 .main {
   margin-left: 100px;
   margin-top: 100px;
+  width: 100%;
 }

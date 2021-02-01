@@ -9,7 +9,7 @@ export default function Main() {
   const [isLoad, setIsLoad] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setIsLoad(false), 3000);
+    setTimeout(() => setIsLoad(false), 1500);
   }, []);
 
   return (
