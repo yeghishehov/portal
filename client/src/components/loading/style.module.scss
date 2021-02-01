@@ -27,7 +27,7 @@
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
-img {
+.img {
   width: 64px;
   height: 100px;
   -webkit-animation:backSpin 4s linear infinite;
