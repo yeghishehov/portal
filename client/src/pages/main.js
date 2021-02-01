@@ -9,7 +9,9 @@ export default function Main() {
       <Header />
       <div className={styles.body}>
         <Sidebar />
-        {routes()}
+        <main className={styles.main}>
+          {routes()}
+        </main>
       </div>
     </div>
   );

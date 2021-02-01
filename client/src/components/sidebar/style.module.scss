@@ -1,14 +1,17 @@
 .root {
+  position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 91vh;
-  width: 61px;
+  min-height: calc(100vh - 66px);
+  top: 66px;
+  width: 62px;
   border-right: 2px solid #787878;
   color: white;
   margin: 0;
   padding: 0;
+  z-index: 100;
 }
 .portal {
   margin-top: 30px;

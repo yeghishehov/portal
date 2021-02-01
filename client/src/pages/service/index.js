@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Service() {
   return (
     <div style={{ color: 'white' }}>
-      Home
+      Service
     </div>
   );
 }
