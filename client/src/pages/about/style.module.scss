@@ -1,0 +1,32 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 100%;
+}
+.logoContainer {
+  margin-top: 160px;
+  padding: 28px;
+  border: 1px solid #fff;
+}
+.aboutLogo {
+  fill: #fff;
+}
+.title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+  margin-top: 67px;
+}
+.descriptions {
+  width: 90%;
+  margin-top: 60px;
+  margin-left: -64px;
+}
+.description {
+  margin-bottom: 10px;
+}

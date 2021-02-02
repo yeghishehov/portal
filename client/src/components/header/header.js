@@ -21,27 +21,29 @@ export default function Header() {
         </Link>
       </div>
       <div className={styles.menu}>
-        <div className={styles.nav}>
-          {links.map(link => (
-            <Link
-              key={link.id}
-              to={link.route}
-              className={
-                pathname === link.route
-                  ? `${styles.selectedNavItem} ${styles.link}`
-                  : `${styles.navItem} ${styles.link}`
-              }
-            >
-              {link.name}
-              {pathname === link.route
-                ? <div className={styles.gradient} />
-                : null}
-            </Link>
-          ))}
-        </div>
-        <div className={styles.question}>
-          <div className={styles.questionText}>Question</div>
-          <ArrowIcon />
+        <div className={styles.menuItems}>
+          <div className={styles.nav}>
+            {links.map(link => (
+              <Link
+                key={link.id}
+                to={link.route}
+                className={
+                  pathname === link.route
+                    ? `${styles.selectedNavItem} ${styles.link}`
+                    : `${styles.navItem} ${styles.link}`
+                }
+              >
+                {link.name}
+                {pathname === link.route
+                  ? <div className={styles.gradient} />
+                  : null}
+              </Link>
+            ))}
+          </div>
+          <div className={styles.question}>
+            <div className={styles.questionText}>Question</div>
+            <ArrowIcon />
+          </div>
         </div>
       </div>
     </div>

@@ -8,7 +8,8 @@
   padding: 0;
   display: flex;
   align-items: center;
-  z-index: 100;
+  justify-content: space-between;
+  z-index: 200;
 }
 .logo {
   display: flex;
@@ -16,12 +17,16 @@
   align-items: center;
   width: 64px;
   height: 64px;
-  border-right: 2px solid #787878;
 }
 .menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
+}
+.menuItems {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
 }
 .img {
   width: 27px;
@@ -33,7 +38,7 @@
   display: flex;
   justify-content: space-between;
   width: 300px;
-  margin-left: 50px;
+  // margin-left: 50px;
 }
 .navItem {
   font-family: Montserrat;
@@ -67,8 +72,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 110px;
-  margin-right: 80px;
+  width: 130px;
 }
 .questionText {
   font-family: Montserrat;
